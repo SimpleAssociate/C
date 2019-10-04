@@ -27,10 +27,10 @@ int main(void) {
     dreturn = 100*(close_price-open_price);
 
     
-    printf("Open Price : %f\n",open_price);
-    printf("Close Price : %f\n",close_price);
-    printf("100 Share Dollar Return : +%f\n",dreturn);
-    printf("Percent Return : %f\n", p_return);
+    printf("Open Price : %.3f\n",open_price);
+    printf("Close Price : %.3f\n",close_price);
+    printf("100 Share Dollar Return : +%.3f\n",dreturn);
+    printf("Percent Return : %.3f\n", p_return);
 
     open_price = open_price + step;
   }

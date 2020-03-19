@@ -20,15 +20,15 @@ char name;
 double b,s, ret; 
 
 printf("Print name of underlying: "); 
-scanf('name', %f); 
+scanf("%f", name); 
 printf("\nbuying price: "); 
-scanf('b', %d); 
+scanf("%d", b); 
 printf("\nselling price: "); 
-scanf('s', %d); 
+scanf("%d", s); 
 
 ret = getreturn(b,s); 
 
-printf("Return: 'ret'", %d); 
+printf("Return: %d", ret); 
 
 
 

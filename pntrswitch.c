@@ -15,12 +15,12 @@ int *q;
 printf("Enter Stock Price: \n"); 
 scanf("%d", x); 
 
-p = *x; 
+p = &x; 
 
 printf("Enter Stock Price: \n"); 
 scanf("%d", y); 
 
-q = *y; 
+q = &y; 
 
 //switching prices now 
 

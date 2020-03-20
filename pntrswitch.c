@@ -24,9 +24,9 @@ q = &y;
 
 //switching prices now 
 
-temp =&q;
-&q=&p;
-&p=temp; 
+temp =*q;
+*q=*p;
+*q=temp; 
 
 printf("Beginining Stock Price: %d", &q); 
 printf("\nEnding Stock Price: %d", &p); 

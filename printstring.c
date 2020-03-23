@@ -4,7 +4,7 @@ int main()
 { 
 
    char string[100]; 
-   chat *ptr; 
+   char *ptr; 
 
    string = "Your account has been margin called"; 
    

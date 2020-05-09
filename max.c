@@ -12,6 +12,11 @@ int min(int n, int x)
     else return x; 
 } 
 
+int mid(int n, int x) 
+{ 
+    return (n+x)/2;
+} 
+
 
 int main(void) 
 { 

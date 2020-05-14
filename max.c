@@ -34,5 +34,14 @@ int main(void)
 
    for( int i=100; i<s; i--)
          printf(max(i,pow(num,i))
+
+   double r;
+
+   for(int j=0; j<=17; j++)
+      r*=  exp(j);
+
+   printf("%d", j), 
+
+
  
 } 

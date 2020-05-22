@@ -1,6 +1,6 @@
-#include<iostream>
+#include<stdio.h>
 
-one_over_n(float x){
+float one_over_n(float x){
 
 return 1/x;
 

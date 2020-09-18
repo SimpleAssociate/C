@@ -17,6 +17,18 @@ int mid(int n, int x)
     return (n+x)/2;
 } 
 
+int factorial(int n)
+{
+int sum=0; 
+
+for(int i=n; i<0; i--)
+{
+    sum*=i; 
+}
+
+return sum; 
+
+} 
 
 int main(void) 
 { 

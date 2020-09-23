@@ -1,3 +1,6 @@
+#include<stdio.h> 
+
+
 bubble(int a[], int N) {
 
    int i,j,t; 
@@ -12,4 +15,11 @@ bubble(int a[], int N) {
     
    }
 
+} 
+
+
+int main()
+{
+   
+  return 0;  
 } 
